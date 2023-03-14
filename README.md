@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<diplonuk/docker-instance/aws"
+    source = "diplonuk/docker-instance/aws"
     key_name = "changehere" 
 }
 ```
